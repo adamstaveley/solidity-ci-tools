@@ -1,0 +1,18 @@
+{
+  "name": "contract-coverage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "truffle test",
+    "lint": "solium -d contracts",
+    "coverage": "solidity-coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "solidity-coverage": "^0.4.9",
+    "solium": "^1.1.3"
+  }
+}
